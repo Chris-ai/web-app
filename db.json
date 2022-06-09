@@ -1,0 +1,499 @@
+{
+  "patients": [
+    {
+      "firstName": "Krzysiek",
+      "lastName": "Nazwisko",
+      "gender": "mężczyzna",
+      "age": "21",
+      "address": {
+        "street": "Chopina 3a",
+        "city": "Warszawa"
+      },
+      "phoneNumber": "231241234",
+      "enabled": "Tak",
+      "id": 1
+    },
+    {
+      "firstName": "Krzysiek",
+      "lastName": "Bbdas",
+      "gender": "mężczyzna",
+      "age": "55",
+      "address": {
+        "street": "Chrobrego",
+        "city": "Białystok"
+      },
+      "phoneNumber": "jasjfasdf",
+      "enabled": "Tak",
+      "id": 3
+    },
+    {
+      "firstName": "Jhonny",
+      "lastName": "Depp",
+      "gender": "mężczyzna",
+      "age": "20",
+      "address": {
+        "street": "Warszawska",
+        "city": "Warszawa"
+      },
+      "phoneNumber": "731854731",
+      "enabled": "Tak",
+      "id": 5
+    },
+    {
+      "firstName": "Nowa",
+      "lastName": "Pacjentowa",
+      "gender": "kobieta",
+      "age": "20",
+      "address": {
+        "street": "Chopinowska",
+        "city": "Żelazowa Wola"
+      },
+      "phoneNumber": "0000000",
+      "enabled": "Tak",
+      "id": 7
+    },
+    {
+      "firstName": "Bartosz",
+      "lastName": "Bartoszewski",
+      "gender": "mężczyzna",
+      "age": "25",
+      "address": {
+        "street": "Waszyngtona",
+        "city": "Białystok"
+      },
+      "phoneNumber": "756849364",
+      "enabled": "Nie",
+      "id": 8
+    },
+    {
+      "firstName": "Kacper",
+      "lastName": "Mondrala",
+      "gender": "kobieta",
+      "age": "30",
+      "address": {
+        "street": "Oliwkowa 43",
+        "city": "Gdańsk"
+      },
+      "phoneNumber": "956345129",
+      "enabled": "Nie",
+      "id": 10
+    },
+    {
+      "firstName": "Wiktoria",
+      "lastName": "Piękna",
+      "gender": "kobieta",
+      "age": "99",
+      "address": {
+        "street": "Chicagowska",
+        "city": "Chicago"
+      },
+      "phoneNumber": "999888777",
+      "enabled": "Tak",
+      "id": 11
+    },
+    {
+      "firstName": "Nowy Pacjent",
+      "lastName": "Zgodny",
+      "gender": "mężczyzna",
+      "age": "55",
+      "address": {
+        "street": "Klepacka 3a",
+        "city": "Klepacze"
+      },
+      "phoneNumber": "758674837",
+      "enabled": "Tak",
+      "id": 12
+    },
+    {
+      "firstName": "Kolonia",
+      "lastName": "Kolonialny",
+      "gender": "kobieta",
+      "age": "31",
+      "address": {
+        "street": "stok",
+        "city": "Biały"
+      },
+      "phoneNumber": "2381831",
+      "enabled": "Tak",
+      "id": 13
+    },
+    {
+      "firstName": "Kasia",
+      "lastName": "Stasia",
+      "gender": "mężczyzna",
+      "age": "2",
+      "address": {
+        "street": "nowa",
+        "city": "Nowy"
+      },
+      "phoneNumber": "123456789",
+      "enabled": "Nie",
+      "id": 14
+    }
+  ],
+  "projects": [
+    {
+      "body": "Nowy",
+      "patients": [
+        {
+          "firstName": "Nowy Pacjent",
+          "lastName": "Zgodny",
+          "gender": "mężczyzna",
+          "age": "55",
+          "address": {
+            "street": "Klepacka 3a",
+            "city": "Klepacze"
+          },
+          "phoneNumber": "758674837",
+          "enabled": "Tak",
+          "id": 12
+        },
+        {
+          "firstName": "Nowa",
+          "lastName": "Pacjentowa",
+          "gender": "kobieta",
+          "age": "20",
+          "address": {
+            "street": "Chopinowska",
+            "city": "Żelazowa Wola"
+          },
+          "phoneNumber": "0000000",
+          "enabled": "Tak",
+          "id": 7
+        }
+      ],
+      "id": 1
+    },
+    {
+      "body": "Nzwa",
+      "patients": [
+        {
+          "firstName": "Nowy Pacjent",
+          "lastName": "Zgodny",
+          "gender": "mężczyzna",
+          "age": "55",
+          "address": {
+            "street": "Klepacka 3a",
+            "city": "Klepacze"
+          },
+          "phoneNumber": "758674837",
+          "enabled": "Tak",
+          "id": 12
+        },
+        {
+          "firstName": "Krzysiek",
+          "lastName": "Nazwisko",
+          "gender": "mężczyzna",
+          "age": "21",
+          "address": {
+            "street": "Chopina 3a",
+            "city": "Warszawa"
+          },
+          "phoneNumber": "231241234",
+          "enabled": "Tak",
+          "id": 1
+        }
+      ],
+      "id": 2
+    },
+    {
+      "body": "zabawa",
+      "patients": [
+        {
+          "firstName": "Wiktoria",
+          "lastName": "Piękna",
+          "gender": "kobieta",
+          "age": "99",
+          "address": {
+            "street": "Chicagowska",
+            "city": "Chicago"
+          },
+          "phoneNumber": "999888777",
+          "enabled": "Tak",
+          "id": 11
+        }
+      ],
+      "id": 3
+    }
+  ],
+  "zlecenia": [
+    {
+      "patient": {
+        "firstName": "Nowa",
+        "lastName": "Pacjentowa",
+        "gender": "kobieta",
+        "age": "20",
+        "address": {
+          "street": "Chopinowska",
+          "city": "Żelazowa Wola"
+        },
+        "phoneNumber": "0000000",
+        "enabled": "Tak",
+        "id": 7
+      },
+      "project": {
+        "body": "Nowy",
+        "patients": [
+          {
+            "firstName": "Nowy Pacjent",
+            "lastName": "Zgodny",
+            "gender": "mężczyzna",
+            "age": "55",
+            "address": {
+              "street": "Klepacka 3a",
+              "city": "Klepacze"
+            },
+            "phoneNumber": "758674837",
+            "enabled": "Tak",
+            "id": 12
+          },
+          {
+            "firstName": "Nowa",
+            "lastName": "Pacjentowa",
+            "gender": "kobieta",
+            "age": "20",
+            "address": {
+              "street": "Chopinowska",
+              "city": "Żelazowa Wola"
+            },
+            "phoneNumber": "0000000",
+            "enabled": "Tak",
+            "id": 7
+          }
+        ],
+        "id": 1
+      },
+      "research": {
+        "id": 2,
+        "body": "Badanie specjalistyczne"
+      },
+      "results": "Badanie przebiegło pomyślnie B)",
+      "id": 1
+    },
+    {
+      "patient": {
+        "firstName": "Krzysiek",
+        "lastName": "Nazwisko",
+        "gender": "mężczyzna",
+        "age": "21",
+        "address": {
+          "street": "Chopina 3a",
+          "city": "Warszawa"
+        },
+        "phoneNumber": "231241234",
+        "enabled": "Tak",
+        "id": 1
+      },
+      "project": {
+        "body": "Nzwa",
+        "patients": [
+          {
+            "firstName": "Nowy Pacjent",
+            "lastName": "Zgodny",
+            "gender": "mężczyzna",
+            "age": "55",
+            "address": {
+              "street": "Klepacka 3a",
+              "city": "Klepacze"
+            },
+            "phoneNumber": "758674837",
+            "enabled": "Tak",
+            "id": 12
+          },
+          {
+            "firstName": "Krzysiek",
+            "lastName": "Nazwisko",
+            "gender": "mężczyzna",
+            "age": "21",
+            "address": {
+              "street": "Chopina 3a",
+              "city": "Warszawa"
+            },
+            "phoneNumber": "231241234",
+            "enabled": "Tak",
+            "id": 1
+          }
+        ],
+        "id": 2
+      },
+      "research": {
+        "body": "Badanie nowe",
+        "id": 6
+      },
+      "results": "",
+      "id": 3
+    },
+    {
+      "patient": {
+        "firstName": "Krzysiek",
+        "lastName": "Nazwisko",
+        "gender": "mężczyzna",
+        "age": "21",
+        "address": {
+          "street": "Chopina 3a",
+          "city": "Warszawa"
+        },
+        "phoneNumber": "231241234",
+        "enabled": "Tak",
+        "id": 1
+      },
+      "project": {
+        "body": "Nzwa",
+        "patients": [
+          {
+            "firstName": "Nowy Pacjent",
+            "lastName": "Zgodny",
+            "gender": "mężczyzna",
+            "age": "55",
+            "address": {
+              "street": "Klepacka 3a",
+              "city": "Klepacze"
+            },
+            "phoneNumber": "758674837",
+            "enabled": "Tak",
+            "id": 12
+          },
+          {
+            "firstName": "Krzysiek",
+            "lastName": "Nazwisko",
+            "gender": "mężczyzna",
+            "age": "21",
+            "address": {
+              "street": "Chopina 3a",
+              "city": "Warszawa"
+            },
+            "phoneNumber": "231241234",
+            "enabled": "Tak",
+            "id": 1
+          }
+        ],
+        "id": 2
+      },
+      "research": {
+        "id": 4,
+        "body": "Schematyczne rutynowe badanie"
+      },
+      "results": "",
+      "id": 4
+    },
+    {
+      "patient": {
+        "firstName": "Nowy Pacjent",
+        "lastName": "Zgodny",
+        "gender": "mężczyzna",
+        "age": "55",
+        "address": {
+          "street": "Klepacka 3a",
+          "city": "Klepacze"
+        },
+        "phoneNumber": "758674837",
+        "enabled": "Tak",
+        "id": 12
+      },
+      "project": {
+        "body": "Nowy",
+        "patients": [
+          {
+            "firstName": "Nowy Pacjent",
+            "lastName": "Zgodny",
+            "gender": "mężczyzna",
+            "age": "55",
+            "address": {
+              "street": "Klepacka 3a",
+              "city": "Klepacze"
+            },
+            "phoneNumber": "758674837",
+            "enabled": "Tak",
+            "id": 12
+          },
+          {
+            "firstName": "Nowa",
+            "lastName": "Pacjentowa",
+            "gender": "kobieta",
+            "age": "20",
+            "address": {
+              "street": "Chopinowska",
+              "city": "Żelazowa Wola"
+            },
+            "phoneNumber": "0000000",
+            "enabled": "Tak",
+            "id": 7
+          }
+        ],
+        "id": 1
+      },
+      "research": {
+        "body": "Badanie nowe",
+        "id": 6
+      },
+      "results": "Wyniki badań były zachwycające.",
+      "id": 5
+    },
+    {
+      "patient": {
+        "firstName": "Wiktoria",
+        "lastName": "Piękna",
+        "gender": "kobieta",
+        "age": "99",
+        "address": {
+          "street": "Chicagowska",
+          "city": "Chicago"
+        },
+        "phoneNumber": "999888777",
+        "enabled": "Tak",
+        "id": 11
+      },
+      "project": {
+        "body": "zabawa",
+        "patients": [
+          {
+            "firstName": "Wiktoria",
+            "lastName": "Piękna",
+            "gender": "kobieta",
+            "age": "99",
+            "address": {
+              "street": "Chicagowska",
+              "city": "Chicago"
+            },
+            "phoneNumber": "999888777",
+            "enabled": "Tak",
+            "id": 11
+          }
+        ],
+        "id": 3
+      },
+      "research": {
+        "body": "Ultrasonografia",
+        "id": 7
+      },
+      "results": "",
+      "id": 6
+    }
+  ],
+  "research": [
+    {
+      "id": 2,
+      "body": "Badanie specjalistyczne"
+    },
+    {
+      "id": 3,
+      "body": "Badanie rozruchowe"
+    },
+    {
+      "id": 4,
+      "body": "Schematyczne rutynowe badanie"
+    },
+    {
+      "body": "żartowałem",
+      "id": 5
+    },
+    {
+      "body": "Badanie nowe",
+      "id": 6
+    },
+    {
+      "body": "Ultrasonografia",
+      "id": 7
+    }
+  ]
+}
