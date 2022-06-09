@@ -1,24 +1,25 @@
 # web-app
 
-## Project setup
+## Setup projektu
 ```
 yarn install
 ```
+## Albo przy użyciu npm
+```
+npm install
+```
 
-### Compiles and hot-reloads for development
+### Uruchomienie aplikacji (yarn)
 ```
 yarn serve
 ```
 
-### Compiles and minifies for production
+### Uruchomienie aplikacji (npm)
 ```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
+npm run serve
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### W drugiej konsoli uruchomienie json-servera dla rest API
+```
+json-server db.json
+```
